@@ -1,0 +1,36 @@
+---
+name: 'Update Readme'
+
+on:
+  schedule:
+    - cron: '37 13 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-and-build-stable:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+
+      - name: Update
+        run: |-
+          TODAY=$(date +"%Y-%m-%d")
+          BIRTHDATE="1987-12-16"
+          TMP=$(printf '%s' $(( $(date -u -d"$TODAY" +%s) - $(date -u -d"$BIRTHDATE" +%s))))
+          AGE=$(($TMP / 60 / 60 / 24 / 364))
+          sed -En '1h;1!H;${g;s/(<!-- age start -->)(.*)(<!-- age end -->)/\1'"$AGE"'\3/;p;}' -i "./README.md"
+
+      - name: Commit and push on changes
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit -m "Updated Readme" -a || echo "No changes to commit"
+          git push
