@@ -1,6 +1,8 @@
-#### Hey there 👋
+#### Hey there <img src="https://github.com/SoftCreatR/SoftCreatR/raw/master/waving.gif" width="25px">
 I'm Sascha Greuel, a 32 y/o father, husband, passionate software engineer & Overwatch addict from Germany.
-  
+
+<img src="https://github.com/SoftCreatR/SoftCreatR/raw/master/coding.gif">
+
   [![Website](https://img.shields.io/badge/website-visit-2a8?style=flat-square&logo=safari&logoColor=white)](https://1-2.dev) [![E-Mail](https://img.shields.io/badge/email-reveal-369?style=flat-square&logo=gmail&logoColor=white)](https://mailhide.io/e/Iz8qJ) [![Visits](https://badges.pufler.dev/visits/softcreatr/softcreatr?logo=GitHub&label=github%20visits&color=blue&logoColor=white&style=flat-square)](https://github.com/softcreatr)
 
 [![Spotify](https://sptfy.1-2.dev/api/spotify)](https://open.spotify.com/user/softcreatr)
