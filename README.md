@@ -9,10 +9,11 @@ I'm Sascha Greuel, a 32 y/o father, husband, passionate software engineer & Over
     "birthday": "1987-12-16",
     "country":  "Germany",
     "city":     "Gladbeck (NRW)",
+    "email":    "hello@1-2.dev",
     "links": [
       {
         "_self":    "https://github.com/SoftCreatR",
-        "linkedin": "https://www.linkedin.com/in/1-2-dev/",
+        "linkedin": "https://www.linkedin.com/in/1-2-dev",
         "twitter":  "https://twitter.com/1_2_dev",
         "website":  "https://1-2.dev",
         "xing":     "https://www.xing.com/profile/Sascha_Greuel3/portfolio"
