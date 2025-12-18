@@ -23,4 +23,3 @@ I'm Sascha Greuel, a <!-- age start -->38<!-- age end --> y/o father, husband, p
 
 [![E-Mail](https://img.shields.io/badge/email-reveal-369?style=flat-square&logo=gmail&logoColor=white)](https://mailhide.io/e/Iz8qJ)
 
-[![Spotify](https://sptfy.1-2.dev/api/shoutcast)](https://silex.live/club)
