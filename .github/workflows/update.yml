@@ -3,7 +3,7 @@ name: 'Update Readme'
 
 on:
   schedule:
-    - cron: '37 13 16 12 *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Update
         run: |-
